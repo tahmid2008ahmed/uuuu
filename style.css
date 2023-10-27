@@ -1,0 +1,804 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Manrope:wght@400;500&family=Poppins:wght@600&display=swap');
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+header{padding: 0 100px;}
+section{padding: 0 100px;}
+footer{padding: 0 100px;}
+
+:root{
+    --firstcolor:#80E2FF;
+    --secondcolor:#FFD36A;
+    --thirdcolor:#182327;
+    --fourthcolor:#5D696D;
+}
+
+a{text-decoration: none;
+color: var(--thirdcolor);}
+
+header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.logo{
+    margin-top:-5px ;
+    height: 40px;
+    width: 38px;
+}
+
+header div{
+    border: 0.5px solid black;
+    border-radius: 8px;
+    height: 30px;
+    color: #5D696D;
+    width: 310px;
+    text-align: center;
+}
+
+.button{
+color: white;
+background-color: var(--thirdcolor);
+padding: 7px 15px;
+border-radius: 8px;
+font-size: 18px;
+}
+
+.first{
+    background-image: url(images/BG.png);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--firstcolor);
+}
+
+.first div:nth-child(1){
+width: 40%;
+height: 444px;
+font-size: 25px;
+}
+
+.chips-packet{
+    width: 554.28px;
+    height:440.68px;
+}
+
+.first-one::after{
+content: "";
+width: 55px;
+height: 41px;
+background-image: url(images/chipswithbucket.png);
+background-size: contain;
+position: absolute;
+top: 170px;
+left: 233px;
+}
+
+.second{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.second-one{
+    width: 450px;
+    margin-top:180px;
+    height: 460.68px;
+}
+
+.second-one h4::after{
+content: "";
+width: 210px;
+height: 92px;
+background-image: url(images/image\ 20.png);
+background-size: contain;
+position: absolute;
+top: 590px;
+left: 1500px;
+}
+
+.gray{color: var(--fourthcolor);}
+
+.third{
+    text-align: center;
+    display: inline;
+    width: 400px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.fourth{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.fourth-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    width: 370px;
+    height: 514px;
+}
+
+.fourth div:nth-child(3){
+    align-self:center;
+}
+
+.fifth{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.dot{text-align: center;}
+
+.sixth{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--firstcolor);
+    font-size: 18px;
+}
+
+.sixth-one{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 570px;
+    height: 440px;
+    font-size: 18px;
+    margin-top: 70px;
+}
+
+.sixth div:nth-child(2) img{
+    width: 470px;
+    height: 552px;
+} 
+
+.sixth-one-in{
+    display: flex;
+}
+
+.sixth-one-in::before{
+    content: "";
+width:  550px;
+height: 1px;
+background-color:#33D1FF ;
+background-size: contain;
+position: absolute;
+}
+
+.arrows{
+    width: 124px;
+    height: 48px;
+    display: flex;
+    align-self: center;
+    margin-left: 250px;
+}
+
+.seventh{
+    text-align: center;
+    background-image: url(images/image\ 201.png);
+    background-color: var(--secondcolor);
+    padding-top: 230px;
+    height: 468px;
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFF7E3;
+    height: 648px;
+    font-size: 15px;
+}
+
+.footer-one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+}
+
+footer div:nth-child(2){
+    align-self: center;
+}
+
+.footer-one div:nth-child(2){
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+@media(max-width:720px){
+
+header{padding: 0 10px;}
+section{padding: 0 10px;}
+footer{padding: 0 10px;}
+
+header {
+    background-image: url(images/Menu.png);
+    width: 18px;
+    height: 16px;
+    margin-left: 650px;
+}
+
+.logo{
+    margin-left: -650px;
+}
+
+body{
+    margin: 0;
+}
+
+header a{
+    display: none;
+}
+
+header div{
+    display: none;
+}
+
+.contact-icon{
+    display: none;
+}
+
+.chips-packet{
+    width:230px ;
+    height: 260px;
+}
+
+.first{
+    height: 280px;
+}
+
+.first h1{
+    font-size: 30px;
+}
+
+.first p{
+    font-size: 15px;
+}
+
+
+.first h1::after{
+    content: "";
+    width: 33px;
+    height: 25px;
+    background-image: url(images/chipswithbucket.png);
+    background-size: contain;
+    position: absolute;
+    top: 135px;
+    left: 110px;
+    }
+    
+.second-one{
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.second{
+    display: flex;
+    gap: 70px;
+}
+
+.second div:nth-child(1) h1{
+    width: 280px;
+}
+
+.second-one h4::after{
+    content: "";
+    width: 97px;
+    height: 43px;
+    background-image: url(images/image\ 20.png);
+    background-size: contain;
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    }
+
+.third{
+    font-size: 13px;   
+}    
+
+.card{
+    width: 170px;
+    height: 220px;
+}
+
+.fifth{
+    font-size: 13px;
+}
+
+.sixth-one{
+    font-size: 13px;
+}
+
+.sixth-one-in::before{
+    content: "";
+width:  420px;
+height: 1px;
+background-color:#33D1FF ;
+background-size: contain;
+position: absolute;
+}
+
+.sixth div:nth-child(2) img{
+    width: 250px;
+    height: 352px;
+} 
+
+.sixth-one-in{
+    display: flex;
+    flex-direction: column;
+}
+
+.arrows{
+    width:80px ;
+    height: 30px;
+    margin-top: -55px;
+}
+
+.sixth{
+    height: 350px;
+}
+
+.seventh{
+    height: 350px;
+    padding-top: 120px;
+}
+
+.chips{
+    width: 380px;
+    height: 400px;
+    display: flex;
+    margin-top: 70px;
+}
+
+footer div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+footer{
+    height: 530px;
+}
+
+}
+
+
+
+
+
+@media(max-width:576px){
+
+    header{padding: 0 10px;}
+    section{padding: 0 10px;}
+    footer{padding: 0 10px;}
+    
+    body{
+        margin: 0;
+    }
+
+    header {
+        background-image: url(images/Menu.png);
+        width: 18px;
+        height: 16px;
+        margin-left: 490px;
+    }
+    
+    .logo{
+        margin-left: -490px;
+    }
+    
+    header a{
+        display: none;
+    }
+    
+    header div{
+        display: none;
+    }
+    
+    .contact-icon{
+        display: none;
+    }
+    
+    .chips-packet{
+        width:230px ;
+        height: 260px;
+    }
+    
+    .first{
+        height: 300px;
+    }
+    
+    .first h1{
+        font-size: 30px;
+    }
+    
+    .first p{
+        font-size: 15px;
+    }
+    
+    
+    .first h1::after{
+        content: "";
+        width: 33px;
+        height: 25px;
+        background-image: url(images/chipswithbucket.png);
+        background-size: contain;
+        position: absolute;
+        top: 135px;
+        left: 265px;
+        }
+        
+    .second-one{
+        margin-top: 30px;
+        font-size: 13px;
+    }
+    
+    .second{
+        display: flex;
+        gap: 30px;
+    }
+    
+    .second div:nth-child(1) h1{
+        width: 280px;
+    }
+    
+    .second-one h4::after{
+        content: "";
+        width: 97px;
+        height: 43px;
+        background-image: url(images/image\ 20.png);
+        background-size: contain;
+        position: absolute;
+        top: 360px;
+        left: 450px;
+        }
+    
+    .third{
+        font-size: 13px;  
+    }    
+    
+    .card{
+        width: 170px;
+        height: 220px;
+    }
+    
+    .fifth{
+        font-size: 13px;
+    }
+    
+    .sixth-one{
+        font-size: 13px;
+    }
+    
+    .sixth-one-in::before{
+        content: "";
+    width:  320px;
+    height: 1px;
+    background-color:#33D1FF ;
+    background-size: contain;
+    position: absolute;
+    }
+    
+    .sixth div:nth-child(2) img{
+        width: 250px;
+        height: 352px;
+    } 
+    
+    .sixth-one-in{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .arrows{
+        width:80px ;
+        height: 30px;
+        margin-top: -55px;
+        margin-left: 170px;
+    }
+    
+    .sixth{
+        height: 420px;
+    }
+    
+    .seventh{
+        height: 350px;
+        padding-top: 120px;
+    }
+    
+    .chips{
+        width: 530px;
+        height: 420px;
+        margin-top: 70px;
+        margin-left: 5px;
+    }
+    
+    footer div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+    }
+
+    footer div:nth-child(1){
+        margin-top: 20px;
+        display: flex;
+        align-self: flex-start;
+    }
+    
+    footer{
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
+
+
+@media(max-width:375px){
+
+        header{padding: 0 0 0 10px;}
+        section{padding: 0 0 0 10px;
+        width: 100%;}
+        footer{padding: 0 0 0 10px;}
+        
+        header {
+            background-image: url(images/Menu.png);
+            width: 18px;
+            height: 16px;
+            margin-left: 300px;
+        }
+
+        body{
+            margin: 0;
+        }
+        
+        .logo{
+            margin-left: -300px;
+        }
+        
+        header a{
+            display: none;
+        }
+        
+        header div{
+            display: none;
+        }
+        
+        .contact-icon{
+            display: none;
+        }
+        
+        .chips-packet{
+            width: 340px;
+            height: 360px;
+        }
+        
+        .first{
+            height:663px;
+            width: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column-reverse;
+            gap: 30px;
+        }
+        
+        .first h1{
+            font-size: 25px;
+            width: 350px;
+        }
+        
+        .first p{
+            font-size: 15px;
+            width: 300px;
+        }
+        
+        
+        .first h1::after{
+            content: "";
+            width: 33px;
+            height: 25px;
+            background-image: url(images/chipswithbucket.png);
+            background-size: contain;
+            position: absolute;
+            top: 515px;
+            left: 160px;
+            }
+            
+        .second-one{
+            margin-top: 30px;
+            font-size: 13px;
+            height: auto;
+            margin-bottom: 50px;
+            width: 350px;
+        }
+        
+        .second{
+            display: flex;
+            width: auto;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .second div:nth-child(1) h1{
+            width: 280px;
+        }
+
+        .second div:nth-child(2) p{
+            width: 340px;
+        }
+        
+        .second-one h4::after{
+            content: "";
+            width: 97px;
+            height: 43px;
+            background-image: url(images/image\ 20.png);
+            background-size: contain;
+            position: absolute;
+            top: 820px;
+            left: 240px;
+            }
+
+            .second div:nth-child(1) img{
+                margin-top: 50px;
+            }
+        
+        .third{
+            font-size: 13px; 
+            margin: 0;
+            height: 120px; 
+            width: 350px;
+        }   
+        
+        .third p{
+            width: 220px;
+            margin-left: 80px;
+        }
+
+        .fourth{
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+        }
+
+        .fourth-one{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .card{
+            width: 100%;
+            height: 484px;
+        }
+        
+        .fifth{
+            font-size: 13px;
+            width: 350px;
+        }
+        
+        .sixth-one{
+            font-size: 13px;
+            width: 100%;
+        }
+
+        .fifth div:nth-child(1){
+            display: none;
+        }
+
+        .beer-chips{
+            width: 100%;
+            height: 364px;
+        }
+        
+        .sixth-one-in::before{
+            content: "";
+        width:  320px;
+        height: 1px;
+        background-color:#33D1FF ;
+        background-size: contain;
+        position: absolute;
+        }
+        
+        .sixth div:nth-child(2) img{
+            width: 80%;
+            height: 352px;
+        } 
+        
+        .sixth-one-in{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .arrows{
+            width:80px ;
+            height: 30px;
+            margin-top: -55px;
+            margin-right: 190px;
+        }
+        
+        .sixth{
+            height: auto;
+            width: auto;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .guy-img{
+            width: 250px;
+            height: 352px;
+            margin-left: 40px;
+        }
+
+        .sixth-one p{
+            width: 320px;
+        }
+        
+        .seventh{
+            height: 350px;
+            width: auto;
+            padding-top: 120px;
+        }
+
+        .seventh h2{
+            font-size: 25px;
+        }
+
+        .seventh p{
+            font-size: 11px;
+            padding-bottom: 15px;
+        }
+        
+        .chips{
+            width: 330px;
+            height: 360px;
+            margin-top: 70px;
+            margin-left: 5px;
+        }
+        
+        footer div:nth-child(2){
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+        }
+    
+        footer div:nth-child(1){
+            margin-top: 20px;
+            display: flex;
+            align-self: flex-start;
+        }
+        
+        footer{
+            height: auto;
+            width: auto;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+
+}    
